@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #21219d;
+    color: white;
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    background-color: #21219d;
+    color: white;
+    height: 100vh;
+    padding: 10px 30px;
+    transform: translateX(-100%);
+    transition: 1s;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px;
+}
